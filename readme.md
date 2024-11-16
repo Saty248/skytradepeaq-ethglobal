@@ -1,5 +1,7 @@
 # Drone Remote ID Verification with peaq Network
 
+![Screenshot 2024-11-16 at 4 44 22 PM](https://github.com/user-attachments/assets/f478f5ea-37db-4a5f-8b99-4c493f677fb6)
+
 ## How it Works:
 
 1. Drone Registration:
@@ -26,6 +28,7 @@ Any signal that fails the verification process is flagged as potentially fraudul
 3. The `verification.js` function will help to verify the signature using `signatureVerify` function by `@polkadot/util-crypto` sdk.
 
 4. If the verification process is good, then the Drone will be given access to the airspace.
+
 
 
 
